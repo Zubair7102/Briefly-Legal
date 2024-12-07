@@ -8,7 +8,6 @@ export const Foooter = () => {
         <Row className="align-items-center">
           <MailchimpForm />
           <Col xs={12} sm={6}>
-            <img src="https://svgshare.com/i/tKZ.svg" alt="Logo" />
           </Col>
           <Col xs={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
@@ -16,7 +15,7 @@ export const Foooter = () => {
               <a href="#"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-512.png" alt="Icon" /></a>
               <a href="#"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter3_colored_svg-512.png" alt="Icon" /></a>
             </div>
-            <p>Copyright 2023. All Rights Reserved</p>
+            <p>Made with ❤️</p>
           </Col>
         </Row>
       </Container>

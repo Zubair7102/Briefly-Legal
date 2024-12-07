@@ -9,24 +9,6 @@ import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
-  const projects = [
-    {
-      title: "Khouloud Taouchikht",
-      description: "Software Engineer",
-      imgUrl: "https://i.postimg.cc/qqwFdbJv/Screenshot-2023-04-23-172918.png",
-    },
-    {
-      title: "OUSSAMA LOUATI",
-      description: "Software Engineer",
-      imgUrl: "https://i.postimg.cc/xCRJGMjz/OUSSAMA-LOUATI.jpg",
-    },
-    {
-      title: "Houda el ibrahimi",
-      description: "Software Engineer",
-      imgUrl: "https://i.postimg.cc/zvhmZSLL/justme-1.jpg",
-    },
-  ];
-
   return (
     <section className="project" id="dev">
       <Container>
@@ -35,8 +17,8 @@ export const Projects = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <h2>Who we are ?</h2>
-                <p>Our projects have been brought to life with the assistance of a diverse group of skilled INPT students. These talented individuals have contributed their expertise, passion, and dedication to crafting innovative solutions that meet the needs of our clients and users.</p>
+                {/* <h2>Who we are ?</h2> */}
+                {/* <p>Our projects have been brought to life with the assistance of a diverse group of skilled INPT students. These talented individuals have contributed their expertise, passion, and dedication to crafting innovative solutions that meet the needs of our clients and users.</p> */}
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   {/* <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
@@ -53,14 +35,14 @@ export const Projects = () => {
                     <Tab.Pane eventKey="first">
                       <Row>
                         {
-                          projects.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                              />
-                            )
-                          })
+                          // projects.map((project, index) => {
+                          //   return (
+                          //     <ProjectCard
+                          //       key={index}
+                          //       {...project}
+                          //     />
+                          //   )
+                          // })
                         }
                       </Row>
                     </Tab.Pane>

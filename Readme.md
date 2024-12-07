@@ -18,7 +18,7 @@ The **Legal AI: Automated Legal Document Analysis Platform** simplifies the chal
 ### ⚙️ Manual Setup
 1. **Clone the Repository**
 ```bash
-git clone <repository-url>
+git clone https://github.com/Zubair7102/Briefly-Legal.git
 ```
 
 2. **Setup Frontend (Next.js)**
@@ -36,7 +36,7 @@ flask run
 ```
 
 4. **Access the Application**
-Open your browser and navigate to `http://localhost:<port>`
+Open your browser and navigate to `http://localhost:3000`
 
 ### 🐳 Docker Setup
 1. **Install Docker** if not already installed.
@@ -47,7 +47,7 @@ docker-compose up
 ```
 
 3. **Access the Application**
-Open your browser and navigate to `http://localhost:<port>`
+Open your browser and navigate to `http://localhost:3000`
 
 ## 🛠️ Technology Stack
 

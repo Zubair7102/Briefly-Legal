@@ -13,6 +13,17 @@ The **Legal AI: Automated Legal Document Analysis Platform** simplifies the chal
 * **🔗 Flask Server Integration**: Efficiently connects the frontend with machine learning models for robust backend processing.
 * **📦 Docker Containerization**: Simplifies deployment through **Docker Compose** for quick setup and usage.
 
+## 🚀 🖥️ Screenshots
+### 💻 Frontend Interface
+![Home Page](Screenshots/BrieflyLegalFrontentImg1.jpeg)
+
+### 🔍 Analysis Results
+![Process Image 1](Screenshots/BrieflyLegalImg1.jpeg)
+![Process Image 2](Screenshots/BrieflyLegalImg2.jpeg)
+![Process Image 3](Screenshots/BrieflyLegalImg3.jpeg)
+![Process Image 4](Screenshots/BrieflyLegalImg4.jpeg)
+
+
 ## 🚀 Getting Started
 
 ### ⚙️ Manual Setup
